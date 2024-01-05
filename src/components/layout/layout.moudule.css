@@ -1,0 +1,18 @@
+.header {
+  justify-content: space-between;
+  top: 0;
+}
+.header > a {
+  margin: 1% 10%;
+}
+.header > a:hover {
+  color: rgb(248, 121, 99);
+}
+.main {
+  height: 90vh;
+}
+.footer {
+  bottom: 0;
+  cursor: pointer;
+  height: 8%;
+}

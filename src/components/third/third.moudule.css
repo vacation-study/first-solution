@@ -1,0 +1,39 @@
+.third {
+  width: 100vw;
+  height: 50vh;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  border-top: 2px solid rgb(162, 162, 249);
+}
+.third-body {
+  display: flex;
+  height: 100%;
+}
+.not-data {
+  font-size: x-large;
+  font-weight: 900;
+}
+.board {
+  border: 2px solid rgb(162, 162, 249);
+  width: 15%;
+  height: 82%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+}
+.each-board {
+  flex-direction: column;
+}
+.each-items {
+  width: 12vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.each-buttons {
+  height: 10%;
+  background-color: tomato;
+  color: white;
+  border-color: transparent;
+  border-radius: 5px;
+}

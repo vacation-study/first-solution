@@ -1,0 +1,6 @@
+.assignment-body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 3%;
+  overflow-x: hidden;
+}

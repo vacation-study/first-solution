@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+input,
+button {
+  outline: none;
+  cursor: pointer;
+  border-color: transparent;
+}
+.white-font {
+  color: white;
+  font-weight: 700;
+}
+.full-width {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.jus-center {
+  justify-content: center;
+}
+.pos-fix {
+  position: fixed;
+}
+.bg-blue {
+  background-color: rgb(162, 162, 249);
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+.h-w-full {
+  height: 100%;
+  width: 100%;
+}
+.bg-blue {
+  background-color: rgb(162, 162, 249);
+  color: white;
+}
+.problem {
+  height: 80vh;
+  flex-direction: column;
+}
+.problem-page {
+  font-size: xx-large;
+  font-weight: 900;
+  color: tomato;
+}
+.problem-btn {
+  margin-top: 3%;
+  font-size: large;
+  font-weight: 900;
+  background-color: rgb(162, 162, 249);
+  border-radius: 10px;
+  color: white;
+}
+.problem-btn:hover {
+  background-color: rgb(113, 113, 253);
+}

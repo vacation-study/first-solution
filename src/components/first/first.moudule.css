@@ -1,0 +1,14 @@
+.first {
+  width: 50vw;
+  height: 40vh;
+  border-right: 2px solid rgb(162, 162, 249);
+}
+.first > button {
+  margin: 10%;
+  color: white;
+  border-color: transparent;
+  padding: 5px;
+  font-weight: 700;
+  font-size: large;
+  border-radius: 5px;
+}

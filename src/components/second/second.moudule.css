@@ -1,0 +1,26 @@
+.second {
+  width: 50vw;
+}
+.disabled {
+  font-size: x-large;
+  font-weight: 900;
+}
+.able-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-content: center;
+  place-items: center;
+  row-gap: 15px;
+}
+.able-form > input {
+  padding: 5px;
+  font-weight: 700;
+  border: 2px solid rgb(162, 162, 249);
+  border-radius: 10px;
+  width: 50%;
+}
+.able-form > input[type="submit"] {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 30%;
+}
